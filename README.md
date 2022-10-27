@@ -8,8 +8,8 @@ This is a project from scratch starting by scraping the data then cleaning and a
 * Comprehensive analysis has been done using the cleaned data. Different visuals has been utilized to ensure intuitive results.
 
 ## Code and Resources Used
-* Video tutoria: I loosely followed Ken Jee's playlist as a guide: (Data Science Project From Scratch)[https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t]
-* Dataset: Data has been scraped from (IMDb "Top 1000" (Sorted by IMDb Rating Descending))[https://www.imdb.com/search/title/?count=100&groups=top_1000&sort=user_rating]
+* Video tutoria: I loosely followed Ken Jee's playlist as a guide: [Data Science Project From Scratch](https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t)
+* Dataset: Data has been scraped from [IMDb "Top 1000" (Sorted by IMDb Rating Descending)](https://www.imdb.com/search/title/?count=100&groups=top_1000&sort=user_rating)
 * Python Version: 3.9
 * Packages: 
     - Pandas:provides data analysis/manipulation tools
@@ -19,7 +19,7 @@ This is a project from scratch starting by scraping the data then cleaning and a
     - bs4 (BeautifulSoup version 4 used to pull data out of HTML and XML files).
     - urllib (opening and reading URLs)
     - googletrans: A Python library that implemented Google Translate API.
-* Scraping: (Web scraping in Python with Beautiful Soup and requests from Data School)[https://www.youtube.com/playlist?list=PL5-da3qGB5IDbOi0g5WFh1YPDNzXw4LNL]
+* Scraping: [Web scraping in Python with Beautiful Soup and requests from Data School](https://www.youtube.com/playlist?list=PL5-da3qGB5IDbOi0g5WFh1YPDNzXw4LNL)
 * Max Hilsdorf has a medium article that helped so much doing the analysis in this projet especially anlyzing the lists within a           dataframes. It was the only source I could find in this topic. I really recommend checking out the full article from the link
   https://towardsdatascience.com/dealing-with-list-values-in-pandas-dataframes-a177e534f173
 
