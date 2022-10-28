@@ -24,7 +24,16 @@ This is a project from scratch starting by scraping the data then cleaning and a
   https://towardsdatascience.com/dealing-with-list-values-in-pandas-dataframes-a177e534f173
 
 ## Data Cleaning
-In this section we loaded the data from the .csv file into a Pandas DataFrame. We first changed the <code>TotalCharges</code> column from <code>string</code> to <code>float</code>. Then we dropped all null values and also the <code>customerID</code> column.
+I focused on using the lambda function to clean the data columns one by one and made sure to put them on the right format for later processing. It went as follows:
+1. Movie_title: There were some words that came in Arabic we need to translate that into English.
+2. Year: We got rid of the parenthesis and change the data type to date.
+3. Run_time: we got rid of the min to be able to use it for analysis.
+4. Metascore: we need to stripped the values as there were spaces around.
+5. Director-Star: we split the content of the column into two separate columns and performed further cleaning to remove unnecessary characters. Then wrapped up the different actors and directors in a list.
+6. Gross revenue: We got rid of the $ sign and the M for million and convert it into a float.
+7. Genre: Wrapped up the different genres of each movie in a list.
+8. Certificate: We replaced the '-' value by 'Not Rated'
+9. Then we dropped unneeded columns
 
 ## Analysis
-EDA summary
+Extensive analysis was carried out on the data and made sure to incorporate visuals to make inuitively easy to grasp.
